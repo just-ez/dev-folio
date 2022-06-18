@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devEv || portfolio</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/work.css">
+    <link rel="stylesheet" href="./style/haml.css">
+    <link rel="stylesheet" href="./style/media-query.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body onload="load()">
+    <div class="loading" id="loader">
+        <svg class="gegga">
+            <defs>
+              <filter id="gegga">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
+                <feColorMatrix
+                  in="blur"
+                  mode="matrix"
+                  values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -10"
+                  result="inreGegga"
+                />
+                <feComposite in="SourceGraphic" in2="inreGegga" operator="atop" />
+              </filter>
+            </defs>
+          </svg>
+      <svg class="snurra" width="200" height="200" viewBox="0 0 200 200">
+            <defs>
+              <linearGradient id="linjärGradient">
+                <stop class="stopp1" offset="0" />
+                <stop class="stopp2" offset="1" />
+              </linearGradient>
+              <linearGradient
+                y2="160"
+                x2="160"
+                y1="40"
+                x1="40"
+                gradientUnits="userSpaceOnUse"
+                id="gradient"
+                xlink:href="#linjärGradient"
+              />
+            </defs>
+            <path
+              class="halvan"
+              d="m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64"
+            />
+            <circle class="strecken" cx="100" cy="100" r="64" />
+          </svg>
+      <svg class="skugga" width="200" height="200" viewBox="0 0 200 200">
+            <path
+              class="halvan"
+              d="m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64"
+            />
+            <circle class="strecken" cx="100" cy="100" r="64" />
+          </svg>
+          <p>portfolio</p>
+    </div>
+    <div class="body" id="body">
+    <div class="container">
+        <nav>
+            <p id="name">available for freelance|| fulltime jobs. </p>
+            <p>
+            backend developer portfolio||2022
+            </p>
+           <span><img src="/boxicons-2.0.9//svg/regular/bx-code-curly.svg" alt="" class="img"></span>
+            <div class="nav-link">
+                <ul>
+                    <li><img src="./boxicons-2.0.9/svg/regular/bx-home-alt.svg" alt="" title="Home">home</li>
+                    <li><a href="#myWorks"><img src="./boxicons-2.0.9/svg/logos/bxl-nodejs.svg" alt="" title="My works">my works</a></li>
+                    <li ><a href="#contact"><button id="contact">contact me</button></a></li>
+                   
+                </ul>
+            </div>
+      
+        </nav>
+        <main id="main">
+           
+       <div class="media" id="media">
+           <ul>
+               <li><img src="./boxicons-2.0.9/svg/logos/bxl-facebook-circle.svg" alt=""></li>
+               <li><img src="./boxicons-2.0.9/svg/logos/bxl-twitter.svg" alt=""></li>
+               <li><img src="./boxicons-2.0.9/svg/logos/bxl-instagram.svg" alt=""></li>
+               <li><img src="./boxicons-2.0.9/svg/logos/bxl-github.svg" alt=""></li>
+           </ul>
+       </div>
+       <div class="subcon">
+         <div class="img">
+               <span> Bernard Ezra. </span><br>
+               <p>
+                   hi am am full-stack developer based on javascript i use react on my frontend and Nodejs as a backend well i love backend the most and am
+                    better off as a backend developer.
+               </p>
+            </div>
+       <div class="text">
+          
+          <span>
+              <span>p</span>
+              <span>o</span>
+              <span>r</span>
+              <span>t</span>
+              <span>-</span>
+              <br>
+              <span>f</span>
+              <span>o</span>
+             
+              <span>l</span>
+              <span>i</span>
+              <span>o</span>
+           
+            </span>
+       </div>
+            </div>
+          
+        </main>
+       <div class="scroll-btn">
+           <span>scroll down</span>
+           <img src="/boxicons-2.0.9/svg/regular/bx-down-arrow-alt.svg" alt="" id="bottom" class="svg">
+       </div>
+    </div>
+    <div class="myWorks" id="myWorks">
+       
+           <!-- <div class="headtitle"> <span><div class="line"></div> my works <div class="line"></div></span></div> -->
+  
+   
+   <div id="section">
+    <h3>RECENT WORKS 💄</h3>
+    <hr>
+  <div class="item">
+  <h1>Artme</h1>
+    <h2>Service for artist to display their art create collection, launch them and sell successfully</h2>
+  <img src="https://cdn.dribbble.com/users/886569/screenshots/5459050/ezgif.com-optimize__10_.gif"  class="imgview">
+  </div>
+  <div class="item">
+  <h1>Exposure Cards</h1>
+    <h2>Get more traffic to your content & find underrated websites</h2>
+  <img src="https://cdn.dribbble.com/users/886569/screenshots/4392430/woah.gif" class="imgview">
+  </div>
+  <div class="item">
+  <h1>Movmate</h1>
+    <h2>Discover awesome newsletters & get more subscribers to yours</h2>
+  <img src="/img/Screenshot (41).png"  class="imgview">
+  </div>
+  </div>
+
+    </div>
+    <div class="tch">
+     <p> IF CODE IS A POETRY THEN I AM DANTE LOL 😂😉</p>
+  </div>
+
+ 
+    <div class="contact">
+      <h3>GET IN TOUCH WITH ME 👀🤠 </h3>
+      <hr>
+       <form action="" method="post">
+          <input type="text" name="name" id="name" placeholder="your name..">
+          <input type="email" name="email" id="" placeholder="type your email here">
+          <textarea name="text" id="" cols="30" rows="10" placeholder="what you have in your mind"></textarea>
+          <button>submit</button>
+        </form>
+  <hr>
+  <div class="cont">
+
+
+</div>
+   
+    </div>
+    
+    </div>
+    <script src="script.js"></script>
+    <script>
+        var preloader = document.getElementById('loader');
+        function preLoaderHandler(){
+            preloader.style.display = 'none';
+        }
+        
+// Show & hide the images
+$("h1").hover(function(){
+  $(this).parent().find("img").addClass("ishover");
+  }, function() {
+  $(this).parent().find("img").removeClass("ishover");
+  });
+// Parallax effect
+$("h1").mousemove(function(e){
+  // Get the Y offset from the first product
+  var offset = $(this).offset().top-$(":first-child", $(".item")).offset().top;
+  // Calculate the new position
+  var movex = (e.pageX * -1.73 / 6);
+  var movey = ((e.pageY-offset) * -1.73 / 6);
+  // Apply the margins
+  $(this).parent().find("img").css('margin-left', movex + 'px')/2;
+  $(this).parent().find("img").css('margin-top', movey + 'px');
+});
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="simpleParallax.js"></script>
+
+</body>
+</html>

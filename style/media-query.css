@@ -1,0 +1,48 @@
+@media screen and (max-width: 773px) {
+    .loading {
+        font-size: 20px;
+    }
+    nav p {
+        display: none;
+    }
+    nav span  img{
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+        display: inline-block;
+        padding: 10px;
+    }
+    #media {
+        display: none;
+    }
+    .subcon {
+        flex-direction: column-reverse;
+    }
+    .text {
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+    }
+    .scroll-btn {
+        left: 30%;
+    }
+    .contact form {
+        width: 100%;
+        margin: 2px;
+        margin-right: 0;
+    }
+    /* h3 {
+        margin-right: 150px;
+    } */
+}
+@media screen and (max-width: 459px) {
+    .text span span{
+       
+        font-size: 4em;
+    }
+    nav button {
+        padding: 5px;
+    }
+    nav ul li {
+        font-size: small;
+    }
+}
